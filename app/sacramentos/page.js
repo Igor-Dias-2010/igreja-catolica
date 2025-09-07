@@ -1,10 +1,10 @@
 "use client"
-import './sacramentos.css'
+import Navbar from '../navbar'
 import Link from "next/link"
 export default function Sacramentos(){
     return (
         <div>
-            <nav><Link href="/">home</Link></nav>
+            <Navbar />
             <h1>falar sobre os Sacramentos</h1>
         </div>
     )

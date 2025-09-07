@@ -1,10 +1,10 @@
 "use client"
 import Link from "next/link"
-import './santos.css'
+import Navbar from '../navbar'
 export default function Santos() {
     return (
         <div>
-            <nav><Link href="/">home</Link> </nav>
+            <Navbar />
             <h1>falar sobre os Santos</h1>
         </div>
     )

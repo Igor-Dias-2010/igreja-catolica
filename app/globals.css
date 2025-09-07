@@ -4,16 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
-  place-items: center;
-  text-align: center;
-  background-color: #f1f1f1;
-  color: #000000;
-}
-
 body::-webkit-scrollbar {
   scrollbar-width: none;
 }
+
+
+body {
+  place-items: center;
+  text-align: center;
+  background-color: #f8f9fa;
+  background-image: url(Jesus\ rosto\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-attachment: fixed;
+  color: #333;
+}
+
+
 
 #conteudo {
   margin-top: 50px;
@@ -33,21 +40,24 @@ body::-webkit-scrollbar {
   margin-bottom: 30px;
 }
 
-h1{
+h1 {
   margin-bottom: 30px;
-  text-decoration: underline 2px #1e90ff;
+  text-decoration: underline 3px rgb(185, 140, 25);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#saudacao{
-  font-family:sans-serif;
+
+#saudacao {
+  font-family: sans-serif;
 }
+
 a {
   text-decoration: none;
-  color: #1e90ff;
+  color: rgb(185, 140, 25);
   font-weight: bold;
   transition: all 0.3s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #104e8b;
+  color: rgb(146, 111, 20);
 }

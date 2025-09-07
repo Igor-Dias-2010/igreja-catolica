@@ -1,0 +1,31 @@
+nav {
+    background: linear-gradient(0deg, rgb(212, 212, 11), rgb(230, 230, 230) 100%);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100vh;
+    place-self: center;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    border-radius: 3px;
+    font-size: 25px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    opacity: 0.9;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: rgb(146, 111, 20);
+    text-decoration: underline;
+}

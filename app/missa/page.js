@@ -1,11 +1,11 @@
 "use client"
 import Link from "next/link"
 import Navbar from "../navbar"
-export default function Papa() {
+export default function Missa() {
     return (
         <div>
             <Navbar />
-            <h1>falar sobre o papa</h1>
+            <h1>Falar sobre a Missa</h1>
         </div>
     )
 }
