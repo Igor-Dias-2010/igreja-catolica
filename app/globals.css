@@ -12,51 +12,76 @@ body::-webkit-scrollbar {
 body {
   place-items: center;
   text-align: center;
-  background-color: #f8f9fa;
-  background-repeat: no-repeat;
-  background-size: 100% 200%;
-  background-attachment: fixed;
-  color: #333;
+  color: rgb(218, 213, 213);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("imagens/wallpaper chique antigo dark red 2.jpg") center center / cover no-repeat fixed;
 }
 
 
 
 #conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 #conteudo p {
-  line-height: 1.6;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 25px;
   letter-spacing: 1px;
-  margin-bottom: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
   font-style: oblique;
 }
+#conteudo li {
+  text-align: left;
+  font-size: 25px;
+  margin-left: 10px;
+  line-height: 1.6;
+}
 
-#conteudo h2 {
-  margin-bottom: 30px;
+#conteudo strong {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 
 h1 {
+  margin-top: 30px;
   margin-bottom: 30px;
-  text-decoration: underline 3px rgb(185, 140, 25);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
 }
-
+h2{
+  margin-top: 55px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
 #saudacao {
   font-family: sans-serif;
 }
 
 a {
   color: rgb(185, 140, 25);
-  font-weight: bold;
   transition: all 0.3s ease;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
   color: rgb(146, 111, 20);
+  text-decoration: underline;
+}
+
+.lista {
+  margin-top: 50px;
+  margin-bottom: 60px;
 }

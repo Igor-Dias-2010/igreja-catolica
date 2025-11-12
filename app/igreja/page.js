@@ -1,14 +1,14 @@
 "use client"
 import Link from "next/link"
-import Navbar2 from "../navbar2"
+import TitleBar from "../title-bar"
 export default function Igreja() {
     return (
         <div>
-            <Navbar2 />
+            <TitleBar />
             <h2 id="saudacao">Bem-vindo ao meu site sobre a Igreja Católica</h2>
             <div id="conteudo">
                 <p>
-                    A Igreja Católica é a segunda maior religião do mundo, com cerca de 1,3 bilhão de adeptos, sendo o maior ramo único do Cristianismo. Ela é liderada pelo <Link href="/papa">Papa</Link>, que é considerado o sucessor de São Pedro, um dos apóstolos de Jesus Cristo.
+                    A Igreja Católica é a segunda maior religião do mundo, com cerca de 1,3 bilhão de adeptos, sendo o maior ramo único do Cristianismo. Ela é liderada pelo <Link href="/papa">Papa</Link>, que é considerado o sucessor de São Pedro, um dos apóstolos de Jesus Cristo, e primeiro papa da igreja.
                 </p>
                 <p>
                     A Igreja Católica tem uma rica istória que remonta aos tempos de Jesus Cristo e dos apóstolos. Ela desempenhou um papel significativo na formação da civilização ocidental, influenciando a arte, a cultura, a filosofia e a política ao longo dos séculos.
