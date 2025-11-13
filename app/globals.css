@@ -40,6 +40,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-style: oblique;
 }
+
 #conteudo li {
   text-align: left;
   font-size: 25px;
@@ -58,12 +59,14 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: yellow;
 }
-h2{
+
+h2 {
   margin-top: 55px;
   margin-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
 }
+
 #saudacao {
   font-family: sans-serif;
 }
@@ -84,4 +87,16 @@ a:hover {
 .lista {
   margin-top: 50px;
   margin-bottom: 60px;
+}
+
+@media (max-width: 412px) {
+  #conteudo p {
+    letter-spacing: 0px;
+    font-size: 20px;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
 }

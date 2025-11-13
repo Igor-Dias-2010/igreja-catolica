@@ -16,6 +16,9 @@ export default function Igreja() {
                 <p>
                     A doutrina da Igreja Católica é baseada na Bíblia, na tradição apostólica e no magistério da Igreja. Ela ensina a importância dos <Link href="/sacramentos">Sacramentos</Link>, como o batismo, a eucaristia e a confissão, como meios de graça para os fiéis.
                 </p>
+                <p>A <Link href="/catequese">Catequese</Link> é o caminho de formação na fé cristã.
+                    Por meio dela, os fiéis conhecem melhor os ensinamentos de Jesus, entendem o valor dos sacramentos e aprendem a viver o Evangelho no dia a dia.
+                </p>
                 <p>
                     A Igreja Católica também é conhecida por seu compromisso com a caridade e a justiça social. Ela administra inúmeras instituições de caridade, hospitais, escolas e universidades em todo o mundo, ajudando os necessitados e promovendo a dignidade humana.
                 </p>
@@ -30,10 +33,6 @@ export default function Igreja() {
                 </p>
                 <p>
                     A <Link href="/missa">Missa</Link> é um momento central da vida católica, reunindo os fiéis em oração e reflexão. É um espaço de encontro espiritual, de renovação da fé e de fortalecimento da comunidade. Durante a Missa, os católicos compartilham suas esperanças, alegrias e desafios, sentindo-se unidos na fé e no compromisso com os ensinamentos de Cristo. É um tempo de silêncio, cânticos e contemplação, onde cada participante encontra conforto e inspiração para enfrentar as dificuldades da vida cotidiana. A Missa também é celebrada em diferentes ocasiões e datas especiais, marcando os momentos importantes da vida da Igreja e de seus fiéis.
-                </p>
-
-                <p>
-                    Além disso, a Missa proporciona uma oportunidade para refletir sobre a própria vida, reconhecer as próprias falhas e buscar crescimento espiritual. Para muitos, é um momento de paz e renovação interior, que fortalece a esperança e a dedicação aos valores cristãos. A participação regular na Missa ajuda a criar uma conexão mais profunda com a fé e com a comunidade, mantendo viva a tradição e a espiritualidade que permeiam a história da Igreja Católica.
                 </p>
             </div>
         </div>
