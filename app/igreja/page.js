@@ -34,6 +34,7 @@ export default function Igreja() {
                 <p>
                     A <Link href="/missa">Missa</Link> é um momento central da vida católica, reunindo os fiéis em oração e reflexão. É um espaço de encontro espiritual, de renovação da fé e de fortalecimento da comunidade. Durante a Missa, os católicos compartilham suas esperanças, alegrias e desafios, sentindo-se unidos na fé e no compromisso com os ensinamentos de Cristo. É um tempo de silêncio, cânticos e contemplação, onde cada participante encontra conforto e inspiração para enfrentar as dificuldades da vida cotidiana. A Missa também é celebrada em diferentes ocasiões e datas especiais, marcando os momentos importantes da vida da Igreja e de seus fiéis.
                 </p>
+                <p><Link href="/recursos">Recursos oficiais</Link></p>
             </div>
         </div>
     )
