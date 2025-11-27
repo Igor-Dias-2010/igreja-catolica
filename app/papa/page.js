@@ -1,6 +1,8 @@
 "use client"
 import Link from "next/link"
 import Navbar from "../navbar"
+import Creditos from "../creditos"
+
 export default function Papa() {
     return (
         <div>
@@ -22,6 +24,7 @@ export default function Papa() {
                 <h2>Um pouco de história</h2>
                 <p>Desde os primeiros séculos, a Sé de Roma foi reconhecida como central. Com o passar dos tempos, o Papa assumiu papéis novos: diplomático, mundial, pastor de bilhões. Hoje, liderar a Igreja requer entender o mundo contemporâneo e permanecer fiel à Tradição.</p>
             </div>
+            <Creditos />
         </div>
     )
 }

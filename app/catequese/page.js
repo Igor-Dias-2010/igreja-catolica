@@ -1,6 +1,7 @@
 "use client"
 import Navbar from '../navbar'
 import Link from 'next/link'
+import Creditos from '../creditos'
 
 export default function Catequese() {
     return (
@@ -22,6 +23,7 @@ export default function Catequese() {
                     Ela também ajuda o fiel a compreender os sacramentos, a oração e a vida em comunidade, fortalecendo o compromisso com a fé e com o serviço ao próximo.
                 </p>
             </div>
+            <Creditos />
         </div>
     )
 }

@@ -1,6 +1,8 @@
 "use client"
 import Navbar from '../navbar'
 import Link from "next/link"
+import Creditos from '../creditos'
+
 export default function Sacramentos() {
     return (
         <div>
@@ -30,6 +32,7 @@ export default function Sacramentos() {
                 <h2>A importância dos sacramentos</h2>
                 <p>Por meio deles, Deus toca nossa vida concreta: o nascimento, o amor, o perdão, o sofrimento e até a morte. São caminhos pelos quais a graça divina entra na nossa história e transforma o coração humano.</p>
             </div>
+            <Creditos />
         </div>
     )
 }

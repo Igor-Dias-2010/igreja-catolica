@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import Navbar from '../navbar'
+import Creditos from '../creditos'
+
 export default function Recursos() {
     return (
         <div>
@@ -13,6 +15,7 @@ export default function Recursos() {
                 <p>Para ler a Bíblia on-line (Edição Ave-Maria), <Link href="https://fatima.org.br/biblia-online/" target='_blank' rel='noopener noreferrer'>clique aqui</Link></p>
                 <p>Para acessar a Liturgia Diária, <Link href="https://liturgia.cancaonova.com/" target='_blank' rel='noopener noreferrer'>clique aqui</Link></p>
             </div>
+            <Creditos />
         </div>
     )
 }

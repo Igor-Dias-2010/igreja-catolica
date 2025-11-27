@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import TitleBar from "../title-bar"
+import Creditos from "../creditos"
 export default function Igreja() {
     return (
         <div>
@@ -36,6 +37,7 @@ export default function Igreja() {
                 </p>
                 <p><Link href="/recursos">Recursos oficiais</Link></p>
             </div>
+                <Creditos />
         </div>
     )
 }

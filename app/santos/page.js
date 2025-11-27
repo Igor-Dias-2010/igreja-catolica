@@ -1,6 +1,8 @@
 "use client"
 import Link from "next/link"
 import Navbar from '../navbar'
+import Creditos from "../creditos"
+
 export default function Santos() {
     return (
         <div>
@@ -20,6 +22,7 @@ export default function Santos() {
                 </ul>
                 <p>Essas figuras mostram que a santidade não é algo distante ou inalcançável. Ela nasce das escolhas sinceras, da coragem diante das quedas e do amor que se torna ação — nas entrelinhas da vida comum, onde o sagrado e o humano se encontram.</p>
             </div>
+            <Creditos />
         </div>
     )
 }

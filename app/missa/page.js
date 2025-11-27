@@ -1,6 +1,8 @@
 "use client"
 import Link from "next/link"
 import Navbar from "../navbar"
+import Creditos from "../creditos"
+
 export default function Missa() {
     return (
         <div>
@@ -12,6 +14,7 @@ export default function Missa() {
                 <p>A Missa também é encontro e missão: une a comunidade em oração e envia cada pessoa de volta ao mundo com o compromisso de viver o Evangelho. Participar dela é deixar-se transformar, é aprender a reconhecer Cristo no altar — e também no outro.</p>
                 <p>Além disso, a Missa proporciona uma oportunidade para refletir sobre a própria vida, reconhecer as próprias falhas e buscar crescimento espiritual. Para muitos, é um momento de paz e renovação interior, que fortalece a esperança e a dedicação aos valores cristãos. A participação regular na Missa ajuda a criar uma conexão mais profunda com a fé e com a comunidade, mantendo viva a tradição e a espiritualidade que permeiam a história da Igreja Católica.</p>
             </div>
+            <Creditos />
         </div>
     )
 }
