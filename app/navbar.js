@@ -4,6 +4,6 @@ import Link from "next/link"
 import './navbar.css'
 export default function Navbar() {
     return (
-        <nav><Link href="/">Home</Link></nav>
+        <nav className="navbar"><Link href="/">Home</Link></nav>
     )
 }
