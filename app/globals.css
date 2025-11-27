@@ -8,7 +8,6 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-
 body {
   text-align: center;
   color: rgb(218, 213, 213);
@@ -16,8 +15,6 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("imagens/wallpaper chique antigo dark red 2.jpg") center center / cover no-repeat fixed;
 }
-
-
 
 #conteudo {
   display: flex;
@@ -96,4 +93,8 @@ html {
 html,
 body {
   overflow-x: hidden;
+}
+::selection{
+  background-color: #b08a1e;
+  color: #f2f2f2;
 }
