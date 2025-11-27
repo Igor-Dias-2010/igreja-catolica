@@ -10,7 +10,6 @@ body::-webkit-scrollbar {
 
 
 body {
-  place-items: center;
   text-align: center;
   color: rgb(218, 213, 213);
   background:
@@ -38,6 +37,8 @@ body {
   margin-top: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-style: oblique;
+  width: 600px;
+  max-width: 100%;
 }
 
 #conteudo li {
