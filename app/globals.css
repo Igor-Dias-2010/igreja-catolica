@@ -28,9 +28,10 @@ body {
 }
 
 #conteudo p {
+  line-height: 1.8;
   font-size: 25px;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 20px;
   font-family: 'Times New Roman', Times, serif;
   width: 600px;
